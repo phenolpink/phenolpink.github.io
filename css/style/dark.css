@@ -4,8 +4,8 @@
   }
   :root:not([data-user-color-scheme]) {
     --main-color: #ffb90f;
-    --bg-color: #181c27;
-    --bg-content-color: #232222;
+    --bg-color: #35363a;
+    --bg-content-color: #2f3133;
     --bg-menu: #3e4b5e;
     --bg-tag-color: #696969;
     --bg-cat-color: #789;
@@ -40,8 +40,8 @@
 }
 [data-user-color-scheme="dark"] {
   --main-color: #ffb90f;
-  --bg-color: #181c27;
-  --bg-content-color: #232222;
+  --bg-color: #35363a;
+  --bg-content-color: #2f3133;
   --bg-menu: #3e4b5e;
   --bg-tag-color: #696969;
   --bg-cat-color: #789;

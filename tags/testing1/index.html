@@ -226,7 +226,7 @@
                     <p>
                         分组转发是网络核心部分的重要功能
 路由器是 实现分组交换关键构建，存储和转发
-核心部分...
+
                     </p>
                 
             </div>
@@ -245,6 +245,7 @@
 
  
     
+	&nbsp;&nbsp;
 	<i class="czs-chemistry"></i>
 	    <span class="post-wordcount">字数:136&nbsp;&nbsp;&nbsp;</span>
         <i class="czs-calculator"></i>
@@ -304,6 +305,42 @@
 
   
 
+
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.js"></script>
+
+<script>
+    let lazyloadT = Boolean(''),
+        auto_fancybox = Boolean('true')
+    if (auto_fancybox) {
+        $(".post__content").find('img').each(function () {
+            var element = document.createElement("a");
+            $(element).attr("data-fancybox", "gallery");
+            $(element).attr("href", $(this).attr("src"));
+            if (lazyloadT) {
+                $(element).attr("href", $(this).attr("data-srcset"));
+            }
+            $(this).wrap(element);
+        });
+    } else {
+        $(".post__content").find("fancybox").find('img').each(function () {
+            var element = document.createElement("a");
+            $(element).attr("data-fancybox", "gallery");
+            $(element).attr("href", $(this).attr("src"));
+            if (lazyloadT) {
+                $(element).attr("href", $(this).attr("data-srcset"));
+            }
+            $(this).wrap(element);
+        });
+    }
+</script>
+ 
  
 
  

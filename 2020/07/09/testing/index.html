@@ -51,7 +51,7 @@
     
     
         
-            <link rel="stylesheet" href="/css/highlight/default.css" media="none" onload="this.media='all'">
+            <link rel="stylesheet" href="/css/highlight/nnfx-dark.css" media="none" onload="this.media='all'">
         
     
 
@@ -329,6 +329,42 @@
 
   
 
+
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.js"></script>
+
+<script>
+    let lazyloadT = Boolean(''),
+        auto_fancybox = Boolean('true')
+    if (auto_fancybox) {
+        $(".post__content").find('img').each(function () {
+            var element = document.createElement("a");
+            $(element).attr("data-fancybox", "gallery");
+            $(element).attr("href", $(this).attr("src"));
+            if (lazyloadT) {
+                $(element).attr("href", $(this).attr("data-srcset"));
+            }
+            $(this).wrap(element);
+        });
+    } else {
+        $(".post__content").find("fancybox").find('img').each(function () {
+            var element = document.createElement("a");
+            $(element).attr("data-fancybox", "gallery");
+            $(element).attr("href", $(this).attr("src"));
+            if (lazyloadT) {
+                $(element).attr("href", $(this).attr("data-srcset"));
+            }
+            $(this).wrap(element);
+        });
+    }
+</script>
+ 
  
 
  
