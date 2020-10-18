@@ -4,7 +4,7 @@
   }
   :root:not([data-user-color-scheme]) {
     --main-color: #ffb90f;
-    --bg-color: #181c27;
+    --bg-color: #35363a;
     --bg-content-color: #232222;
     --bg-menu: #3e4b5e;
     --bg-tag-color: #696969;
@@ -40,7 +40,7 @@
 }
 [data-user-color-scheme="dark"] {
   --main-color: #ffb90f;
-  --bg-color: #181c27;
+  --bg-color: #35363a;
   --bg-content-color: #232222;
   --bg-menu: #3e4b5e;
   --bg-tag-color: #696969;
