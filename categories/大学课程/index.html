@@ -1,3 +1,7 @@
+<!--
+ * @Descripttion: 
+ * @Date: 2020-07-08 21:19:26
+-->
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
@@ -7,7 +11,7 @@
 
     <!--icon-->
     
-        <link rel="shortcut icon" type='image/x-icon' href="https://pink-1301702299.cos.ap-chengdu.myqcloud.com/silence/favicon.ico">
+        <link rel="shortcut icon" type='image/x-icon' href="/logo1.png">
     
 
     <!-- 渲染优化 -->
@@ -20,25 +24,25 @@
 
     <!-- meta -->
     
-    <title>分类：大学课程 | silence</title>
+    <title>分类：大学课程 | ohhh&#39;s Blog</title>
     
         <meta name="keywords" content="undefined">
     
 
     <!-- OpenGraph -->
      
-        <meta name="description" content="hello old">
-<meta property="og:type" content="website">
-<meta property="og:title" content="silence">
+        <meta property="og:type" content="website">
+<meta property="og:title" content="ohhh&#39;s Blog">
 <meta property="og:url" content="http://yoursite.com/categories/%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B/index.html">
-<meta property="og:site_name" content="silence">
-<meta property="og:description" content="hello old">
+<meta property="og:site_name" content="ohhh&#39;s Blog">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="mingfu">
 <meta name="twitter:card" content="summary_large_image">
     
 
     <!-- feed -->
+    
+        <link rel="alternate" href="/atom.xml" title="ohhh's Blog">
     
 
     
@@ -66,7 +70,8 @@
 
     
 
-<meta name="generator" content="Hexo 4.2.1"></head>
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="ohhh's Blog" type="application/atom+xml">
+</head>
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 <link rel="stylesheet" href="/strawberry-v2.0.0/style.css">
@@ -81,44 +86,21 @@
 </style>
     <body>
         <div id="app">
-            <header class="header">
+            <!--
+ * @Descripttion: 
+ * @Date: 2020-07-08 21:19:26
+-->
+<header class="header">
     <div class="header__left">
         <a href="/" class="button">
-            <span class="logo__text">
-                silence 
+            <span class="logo__text czs-nail">
+                ohhh's Blog 
             </span>
         </a>
     </div>
-    <div class="header__right">
+    <div class="header__right"> 
         
-            <div class="cover__menus">
-                
-                    <a href="/" class="cover-menu button">
-                        首页
-                    </a>
-                
-                    <a href="/tags/" class="cover-menu button">
-                        标签
-                    </a>
-                
-                    <a href="/archives/" class="cover-menu button">
-                        归档
-                    </a>
-                
-                    <a href="/categories/" class="cover-menu button">
-                        分类
-                    </a>
-                
-                    <a href="/friend/" class="cover-menu button">
-                        友链
-                    </a>
-                
-            </div>
-        
-        
-            <a href="javaScript:void(0);" id="btn-toggle-dark">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-            </a>
+            <a href="javaScript:void(0);" id="btn-toggle-dark" class="czs-sun" style=" font-size: 32px;"></a>
         
          
             <a href="javaScript:void(0);" id="b2t" style="" aria-label="回到顶部" title="回到顶部">
@@ -140,10 +122,6 @@
                     </svg>
                 </a>
                 
-                    <a href="/" class="dropdown-menu button">
-                        首页
-                    </a>
-                
                     <a href="/tags/" class="dropdown-menu button">
                         标签
                     </a>
@@ -160,8 +138,27 @@
                         友链
                     </a>
                 
+                    <a href="/about/" class="dropdown-menu button">
+                        关于
+                    </a>
+                
+                    <a href="/atom.xml" class="dropdown-menu button">
+                        
+                    </a>
+                
+                    <a href="https://github.com/pinkkmin" target="_blank" rel="noopener" class="dropdown-menu button">
+                        
+                    </a>
+                
             </div>
             <script>
+                document.getElementById('btn-toggle-dark').addEventListener('click', () => {
+                    const dd = document.getElementById('btn-toggle-dark');
+                    if(dd.className === 'czs-sun')
+                        dd.className = 'czs-moon'
+                    else 
+                        dd.className = 'czs-sun'
+                });
                 document.getElementById('btn-dropdown').addEventListener('click', () => {
                     const dd = document.getElementById('dropdown-menus');
                     requestAnimationFrame(() => {
@@ -186,15 +183,48 @@
 
     <div class="cover">
         <div class="cover__logo">
-		
             
-                <h1>SILENCE</h1>
+                <img no-lazy alt="author Image" style="border-radius: 50%!important" src="/favicon.png">
             
+            <h1 style="font-size:35px;font-weight: bolder;margin:0 0 3px 0;">ohhh's Blog</h1>
         </div>
         
+            
+                <div class="cover__menus">
+                    
+                        <a href="/tags/" class="cover-menu button czs-tag" style=" color:  ">
+                            标签
+                        </a>
+                    
+                        <a href="/archives/" class="cover-menu button czs-box" style=" color:  ">
+                            归档
+                        </a>
+                    
+                        <a href="/categories/" class="cover-menu button " style=" color:  ">
+                            分类
+                        </a>
+                    
+                        <a href="/friend/" class="cover-menu button czs-moments" style=" color:  ">
+                            友链
+                        </a>
+                    
+                        <a href="/about/" class="cover-menu button czs-user" style=" color: #37a2da ">
+                            关于
+                        </a>
+                    
+                        <a href="/atom.xml" class="cover-menu button czs-rss" style=" color:  ">
+                            
+                        </a>
+                    
+                        <a href="https://github.com/pinkkmin" target="_blank" rel="noopener" class="cover-menu button czs-github-logo" style=" color: black ">
+                            
+                        </a>
+                    
+                </div>
+            
             <div class="cover__intro">
-                <p>还是偶尔想要伟大</p>
- 
+               <span style="font-size: 20px;"> <p>还是偶尔想要伟大</p>
+ </span>
             </div>
         
     </div>
@@ -251,9 +281,13 @@
 </div>
 
 
-    <div class="post-tags post-card__tags">
+    <!--
+ * @Descripttion: 
+ * @Date: 2020-07-08 21:19:26
+-->
+<div class="post-tags post-card__tags">
     
-        <a href="/tags/%E8%AE%A1%E7%BD%91%E5%AE%9E%E9%AA%8C%E8%AF%BE%E8%AE%BE/" class="post-tags__link button"># 计网实验课设</a>
+        <a href="/tags/%E8%AE%A1%E7%BD%91%E5%AE%9E%E9%AA%8C%E8%AF%BE%E8%AE%BE/" class="post-tags__link button"><i class="czs-tag-l"></i>  计网实验课设</a>
     
 </div> 
 
@@ -350,6 +384,25 @@
 
 
 
+
+        <!--
+ * @Descripttion: 
+ * @Date: 2020-10-18 09:00:52
+-->
+<!-- {# 随机三角丝带背景 #} -->
+
+  <canvas id="evanyou"></canvas>
+  <style>
+    #evanyou {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  </style>
+  <script src="/js/evan-you.js"></script>
 
     </body>
 </html>

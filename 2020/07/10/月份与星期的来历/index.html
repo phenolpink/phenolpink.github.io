@@ -1,3 +1,7 @@
+<!--
+ * @Descripttion: 
+ * @Date: 2020-07-08 21:19:26
+-->
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
@@ -7,7 +11,7 @@
 
     <!--icon-->
     
-        <link rel="shortcut icon" type='image/x-icon' href="https://pink-1301702299.cos.ap-chengdu.myqcloud.com/silence/favicon.ico">
+        <link rel="shortcut icon" type='image/x-icon' href="/logo1.png">
     
 
     <!-- 渲染优化 -->
@@ -20,7 +24,7 @@
 
     <!-- meta -->
     
-    <title>月份与星期的来历 | silence</title>
+    <title>月份与星期的来历 | ohhh&#39;s Blog</title>
     
         <meta name="keywords" content="undefined测试">
     
@@ -31,7 +35,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="月份与星期的来历">
 <meta property="og:url" content="http://yoursite.com/2020/07/10/%E6%9C%88%E4%BB%BD%E4%B8%8E%E6%98%9F%E6%9C%9F%E7%9A%84%E6%9D%A5%E5%8E%86/index.html">
-<meta property="og:site_name" content="silence">
+<meta property="og:site_name" content="ohhh&#39;s Blog">
 <meta property="og:description" content="月份公历一年有12个月，公历起源于古罗马历法。罗马的英语原本只有10个月，古罗马皇帝决定增加两个月至末尾，后来的凯撒大帝Gaius Julius Caesar将此2月 移至年初，即1、2月，原本的1、2月顺延为3、4月。 January在罗马传说中 ，有一位叫雅努斯（Janus）的守护神，他是罗马人的门神，生有两张脸，一张向前，回首过往，一张向后，眺望未来。雅努斯也是掌管开始和终结的神，罗马人往往">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-07-10T05:24:07.000Z">
@@ -42,6 +46,8 @@
     
 
     <!-- feed -->
+    
+        <link rel="alternate" href="/atom.xml" title="ohhh's Blog">
     
 
     
@@ -73,7 +79,8 @@
 
     
 
-<meta name="generator" content="Hexo 4.2.1"></head>
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="ohhh's Blog" type="application/atom+xml">
+</head>
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 <link rel="stylesheet" href="/strawberry-v2.0.0/style.css">
@@ -88,44 +95,21 @@
 </style>
     <body>
         <div id="app">
-            <header class="header">
+            <!--
+ * @Descripttion: 
+ * @Date: 2020-07-08 21:19:26
+-->
+<header class="header">
     <div class="header__left">
         <a href="/" class="button">
-            <span class="logo__text">
-                silence 
+            <span class="logo__text czs-nail">
+                ohhh's Blog 
             </span>
         </a>
     </div>
-    <div class="header__right">
+    <div class="header__right"> 
         
-            <div class="cover__menus">
-                
-                    <a href="/" class="cover-menu button">
-                        首页
-                    </a>
-                
-                    <a href="/tags/" class="cover-menu button">
-                        标签
-                    </a>
-                
-                    <a href="/archives/" class="cover-menu button">
-                        归档
-                    </a>
-                
-                    <a href="/categories/" class="cover-menu button">
-                        分类
-                    </a>
-                
-                    <a href="/friend/" class="cover-menu button">
-                        友链
-                    </a>
-                
-            </div>
-        
-        
-            <a href="javaScript:void(0);" id="btn-toggle-dark">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-            </a>
+            <a href="javaScript:void(0);" id="btn-toggle-dark" class="czs-sun" style=" font-size: 32px;"></a>
         
          
             <a href="javaScript:void(0);" id="b2t" style="" aria-label="回到顶部" title="回到顶部">
@@ -147,10 +131,6 @@
                     </svg>
                 </a>
                 
-                    <a href="/" class="dropdown-menu button">
-                        首页
-                    </a>
-                
                     <a href="/tags/" class="dropdown-menu button">
                         标签
                     </a>
@@ -167,8 +147,27 @@
                         友链
                     </a>
                 
+                    <a href="/about/" class="dropdown-menu button">
+                        关于
+                    </a>
+                
+                    <a href="/atom.xml" class="dropdown-menu button">
+                        
+                    </a>
+                
+                    <a href="https://github.com/pinkkmin" target="_blank" rel="noopener" class="dropdown-menu button">
+                        
+                    </a>
+                
             </div>
             <script>
+                document.getElementById('btn-toggle-dark').addEventListener('click', () => {
+                    const dd = document.getElementById('btn-toggle-dark');
+                    if(dd.className === 'czs-sun')
+                        dd.className = 'czs-moon'
+                    else 
+                        dd.className = 'czs-sun'
+                });
                 document.getElementById('btn-dropdown').addEventListener('click', () => {
                     const dd = document.getElementById('dropdown-menus');
                     requestAnimationFrame(() => {
@@ -390,6 +389,25 @@
 
 
 
+
+        <!--
+ * @Descripttion: 
+ * @Date: 2020-10-18 09:00:52
+-->
+<!-- {# 随机三角丝带背景 #} -->
+
+  <canvas id="evanyou"></canvas>
+  <style>
+    #evanyou {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  </style>
+  <script src="/js/evan-you.js"></script>
 
     </body>
 </html>

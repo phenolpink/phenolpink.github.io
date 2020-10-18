@@ -1,3 +1,7 @@
+<!--
+ * @Descripttion: 
+ * @Date: 2020-07-08 21:19:26
+-->
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
@@ -7,7 +11,7 @@
 
     <!--icon-->
     
-        <link rel="shortcut icon" type='image/x-icon' href="https://pink-1301702299.cos.ap-chengdu.myqcloud.com/silence/favicon.ico">
+        <link rel="shortcut icon" type='image/x-icon' href="/logo1.png">
     
 
     <!-- 渲染优化 -->
@@ -20,7 +24,7 @@
 
     <!-- meta -->
     
-    <title>基于java实现简单的邮件发送和读取 | silence</title>
+    <title>基于java实现简单的邮件发送和读取 | ohhh&#39;s Blog</title>
     
         <meta name="keywords" content="undefined计网实验课设">
     
@@ -31,7 +35,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="基于java实现简单的邮件发送和读取">
 <meta property="og:url" content="http://yoursite.com/2020/07/10/%E5%9F%BA%E4%BA%8Ejava%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81%E5%92%8C%E8%AF%BB%E5%8F%96/index.html">
-<meta property="og:site_name" content="silence">
+<meta property="og:site_name" content="ohhh&#39;s Blog">
 <meta property="og:description" content="基于java实现简单的邮件发送和读取前言这是计算机网络课程的实验课设，使用java socket发送邮件并且不适用java的mail，基于swing图形实现了一些功能，特地以此作为笔记以备日后查阅。 电子邮件概述电子邮件系统具有三个主要组成构件，即用户代理、邮件服务器以及邮件协议。主要的应用层协议就是简单邮件传送协议SMTP(Simple Mail Transfer Protocol)、邮局协议P">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pink-1301702299.cos.ap-chengdu.myqcloud.com/blog/email/%E5%9B%BE%E7%89%871.png">
@@ -64,6 +68,8 @@
 
     <!-- feed -->
     
+        <link rel="alternate" href="/atom.xml" title="ohhh's Blog">
+    
 
     
 <link rel="stylesheet" href="/css/style/main.css">
@@ -94,7 +100,8 @@
 
     
 
-<meta name="generator" content="Hexo 4.2.1"></head>
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="ohhh's Blog" type="application/atom+xml">
+</head>
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 <link rel="stylesheet" href="/strawberry-v2.0.0/style.css">
@@ -109,44 +116,21 @@
 </style>
     <body>
         <div id="app">
-            <header class="header">
+            <!--
+ * @Descripttion: 
+ * @Date: 2020-07-08 21:19:26
+-->
+<header class="header">
     <div class="header__left">
         <a href="/" class="button">
-            <span class="logo__text">
-                silence 
+            <span class="logo__text czs-nail">
+                ohhh's Blog 
             </span>
         </a>
     </div>
-    <div class="header__right">
+    <div class="header__right"> 
         
-            <div class="cover__menus">
-                
-                    <a href="/" class="cover-menu button">
-                        首页
-                    </a>
-                
-                    <a href="/tags/" class="cover-menu button">
-                        标签
-                    </a>
-                
-                    <a href="/archives/" class="cover-menu button">
-                        归档
-                    </a>
-                
-                    <a href="/categories/" class="cover-menu button">
-                        分类
-                    </a>
-                
-                    <a href="/friend/" class="cover-menu button">
-                        友链
-                    </a>
-                
-            </div>
-        
-        
-            <a href="javaScript:void(0);" id="btn-toggle-dark">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-            </a>
+            <a href="javaScript:void(0);" id="btn-toggle-dark" class="czs-sun" style=" font-size: 32px;"></a>
         
          
             <a href="javaScript:void(0);" id="b2t" style="" aria-label="回到顶部" title="回到顶部">
@@ -168,10 +152,6 @@
                     </svg>
                 </a>
                 
-                    <a href="/" class="dropdown-menu button">
-                        首页
-                    </a>
-                
                     <a href="/tags/" class="dropdown-menu button">
                         标签
                     </a>
@@ -188,8 +168,27 @@
                         友链
                     </a>
                 
+                    <a href="/about/" class="dropdown-menu button">
+                        关于
+                    </a>
+                
+                    <a href="/atom.xml" class="dropdown-menu button">
+                        
+                    </a>
+                
+                    <a href="https://github.com/pinkkmin" target="_blank" rel="noopener" class="dropdown-menu button">
+                        
+                    </a>
+                
             </div>
             <script>
+                document.getElementById('btn-toggle-dark').addEventListener('click', () => {
+                    const dd = document.getElementById('btn-toggle-dark');
+                    if(dd.className === 'czs-sun')
+                        dd.className = 'czs-moon'
+                    else 
+                        dd.className = 'czs-sun'
+                });
                 document.getElementById('btn-dropdown').addEventListener('click', () => {
                     const dd = document.getElementById('dropdown-menus');
                     requestAnimationFrame(() => {
@@ -466,6 +465,25 @@
 
 
 
+
+        <!--
+ * @Descripttion: 
+ * @Date: 2020-10-18 09:00:52
+-->
+<!-- {# 随机三角丝带背景 #} -->
+
+  <canvas id="evanyou"></canvas>
+  <style>
+    #evanyou {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  </style>
+  <script src="/js/evan-you.js"></script>
 
     </body>
 </html>
