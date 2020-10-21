@@ -7,7 +7,7 @@
   --bg-cat-color: #c2c2c2;
   --bg-code: #eee;
   --bg-codeblock: #f8f8f8;
-  --body-color: #4c4d4e;
+  --body-color: #303133;
   --title-color: #50596c;
   --border-color: rgba(0,0,0,0.1);
   --space: 3.5rem;
@@ -27,7 +27,7 @@ section {
   display: block;
 }
 html {
-  --base-font-size: 16px;
+  --base-font-size: 17px;
   font-size: var(--base-font-size);
 }
 ::-webkit-scrollbar {
@@ -61,6 +61,9 @@ body {
   body {
     --space: 1.5rem;
   }
+}
+h1 {
+  text-decoration: none;
 }
 .main {
   margin: 0 auto;
@@ -162,6 +165,9 @@ body {
 .post__content p {
   line-height: 1.8;
 }
+.post__content a {
+  text-decoration: none;
+}
 .post__content img.inline {
   display: inline;
 }
@@ -198,24 +204,33 @@ h5 {
   transition: color 0.6s;
   color: var(--title-color);
   margin: 2.75rem 0 1rem;
-  font-family: miriam libre, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, pingfang sc, source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, Apple Color Emoji, Segoe UI Emoji, Varela Round;
+  font-family: "Roboto Slab", "Noto Serif SC", serif, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, pingfang sc, source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-weight: 430;
   line-height: 1.5;
+  text-decoration: none;
 }
 h1 {
   font-size: 2em;
+  font-weight: bold;
+  font-family: "Roboto Slab", "Noto Serif SC", serif, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, pingfang sc, source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  text-decoration: none;
 }
 h2 {
   font-size: 1.6em;
+  font-weight: bold;
+  text-decoration: none;
 }
 h3 {
   font-size: 1.4em;
+  font-weight: bold;
 }
 h4 {
   font-size: 1.3em;
+  font-weight: bold;
 }
 h5 {
   font-size: 1.2em;
+  font-weight: bold;
 }
 small {
   font-size: 0.889em;
@@ -229,7 +244,7 @@ em {
   font-style: italic;
 }
 s {
-  text-decoration: line-through;
+  text-decoration: none;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -247,7 +262,7 @@ a:not(.button) {
 }
 a:not(.button):hover {
   opacity: 0.8;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a .index-title {
   color: var(--title-color);
@@ -349,6 +364,7 @@ pre {
   margin-top: 0;
   margin-bottom: 0;
   word-wrap: normal;
+  font-family: "Roboto Slab", "Noto Serif SC", serif, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, pingfang sc, source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 pre >code {
   padding: 0;
@@ -372,6 +388,8 @@ pre span {
 }
 a:not(.button):not([href]) {
   color: inherit;
+}
+a text-decoration none:hover {
   text-decoration: none;
 }
 li {
@@ -400,7 +418,7 @@ dl dd {
 code {
   padding: 0.2em 0.4em;
   margin: 0;
-  font-size: 14px;
+  font-size: 15px;
   background-color: var(--bg-code);
   border-radius: 3px;
 }
@@ -413,7 +431,9 @@ code {
 .highlight pre {
   margin-bottom: 0;
 }
-h1 .octicon-link,
+h1 .octicon-link {
+  text-decoration: none;
+}
 h2 .octicon-link,
 h3 .octicon-link,
 h4 .octicon-link,
@@ -422,8 +442,11 @@ h6 .octicon-link {
   color: #1b1f23;
   vertical-align: middle;
   visibility: hidden;
+  text-decoration: none;
 }
-h1:hover .anchor,
+h1:hover .anchor {
+  text-decoration: none;
+}
 h2:hover .anchor,
 h3:hover .anchor,
 h4:hover .anchor,
@@ -438,6 +461,7 @@ h4:hover .anchor .octicon-link,
 h5:hover .anchor .octicon-link,
 h6:hover .anchor .octicon-link {
   visibility: visible;
+  text-decoration: none;
 }
 h1:hover .anchor .octicon-link:before,
 h2:hover .anchor .octicon-link:before,
@@ -449,17 +473,20 @@ h6:hover .anchor .octicon-link:before {
   height: 16px;
   content: ' ';
   display: inline-block;
+  text-decoration: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'%3E%3Cpath fill-rule='evenodd' d='M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z'%3E%3C/path%3E%3C/svg%3E");
 }
 a:active,
+text-decoration none,
 a:hover {
   outline-width: 0;
+  text-decoration: none;
 }
 code,
 kbd,
 pre {
   font-family: monospace, monospace;
-  font-size: 14px;
+  font-size: 15px;
 }
 hr:after,
 hr:before {
@@ -490,7 +517,7 @@ ul ul ol {
 code,
 pre {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-  font-size: 14px;
+  font-size: 15px;
 }
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
@@ -506,7 +533,9 @@ blockquote,
 details,
 dl,
 ol,
-p,
+p {
+  font-weight: bord;
+}
 pre,
 table,
 ul {
@@ -555,7 +584,7 @@ figure table td.gutter {
 pre {
   padding: 0;
   overflow: auto;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.45;
   border-radius: 3px;
 }
@@ -609,7 +638,7 @@ overflows table td {
   text-decoration: none;
 }
 .md-content a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .md-content>.highlight {
   margin: 1rem calc(0rem - var(--space)) !important;
@@ -621,28 +650,39 @@ overflows table td {
 .md-content h1 {
   font-size: 2em;
   margin: 0.67em 0;
-  font-size: 32px;
+  font-size: 37px;
+  text-decoration: none;
+}
+.md-content h1 a {
+  text-decoration: none;
+}
+.md-content h1 a:hover {
+  text-decoration: none;
 }
 .md-content h2 {
   font-size: 24px;
+  font-weight: bold;
   font-size: 1.5em;
 }
 .md-content h3 {
   font-size: 20px;
+  font-weight: bold;
   font-size: 1.25em;
 }
 .md-content h4 {
   font-size: 16px;
+  font-weight: bold;
   font-size: 1em;
 }
 .md-content h5 {
   font-size: 14px;
+  font-weight: bold;
   font-size: 0.875em;
 }
 .md-content h6 {
   font-size: 12px;
+  font-weight: bold;
   font-size: 0.85em;
-  color: #6a737d;
 }
 .md-content h1,
 .md-content h2,
@@ -652,14 +692,39 @@ overflows table td {
 .md-content h6 {
   margin-top: 24px;
   margin-bottom: 20px;
-  font-weight: 550;
+  font-weight: bold;
   line-height: 1.25;
+}
+.md-content h1 a,
+.md-content h2 a,
+.md-content h3 a,
+.md-content h4 a,
+.md-content h5 a,
+.md-content h6 a {
+  text-decoration: none;
+}
+.md-content h1 a:hover,
+.md-content h2 a:hover,
+.md-content h3 a:hover,
+.md-content h4 a:hover,
+.md-content h5 a:hover,
+.md-content h6 a:hover {
+  text-decoration: none;
 }
 .md-content h1,
 .md-content h2 {
   font-weight: 600;
   padding-bottom: 0.3em;
   border-bottom: 1px solid #eaecef;
+  text-decoration: none;
+}
+.md-content h1 a,
+.md-content h2 a {
+  text-decoration: none;
+}
+.md-content h1 a:hover,
+.md-content h2 a:hover {
+  text-decoration: none;
 }
 .archives {
   position: relative;
@@ -945,6 +1010,7 @@ nav a {
   padding: 3px 10px;
   background-color: transparent;
   border: 2px dashed var(--main-color);
+  text-decoration: none;
 }
 nav a:hover {
   border: 2px solid var(--main-color);
@@ -1009,7 +1075,7 @@ nav a:hover {
 .post-side .post-side__toc .toc {
   display: none;
   width: 230px;
-  font-size: 14px;
+  font-size: 15px;
   overflow: auto;
   height: calc(100vh - 60px - 20px);
   list-style-type: none;

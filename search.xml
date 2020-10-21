@@ -1,73 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>testing</title>
-    <url>/2020/07/09/testing/</url>
-    <content><![CDATA[<p>分组转发是网络核心部分的重要功能</p>
-<p>路由器是 实现分组交换关键构建，存储和转发</p>
-<h6 id="核心部分最核心功能：交换"><a href="#核心部分最核心功能：交换" class="headerlink" title="核心部分最核心功能：交换"></a>核心部分最核心功能：交换</h6><p>电话数量增多，使用交换机完成简</p>
-<p>分组交换网以 分组 作为数据传输单元 依次发送到服务端</p>
-<p>分组首部含有地址（目的地址和原源地址）   </p>
-<p>分组 独立地选择传输路径</p>
-<p>路由器处理分组过程：把收到的分组暂存； 查找转发表；转发</p>
-]]></content>
-      <categories>
-        <category>分类测试</category>
-      </categories>
-      <tags>
-        <tag>testing1</tag>
-        <tag>tesing2</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/07/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>月份与星期的来历</title>
-    <url>/2020/07/10/%E6%9C%88%E4%BB%BD%E4%B8%8E%E6%98%9F%E6%9C%9F%E7%9A%84%E6%9D%A5%E5%8E%86/</url>
-    <content><![CDATA[<h1 id="月份"><a href="#月份" class="headerlink" title="月份"></a>月份</h1><p>公历一年有12个月，公历起源于古罗马历法。罗马的英语原本只有10个月，古罗马皇帝决定增加两个月至末尾，后来的凯撒大帝<code>Gaius Julius Caesar</code>将此2月 移至年初，即1、2月，原本的1、2月顺延为3、4月。</p>
-<h3 id="January"><a href="#January" class="headerlink" title="January"></a>January</h3><p>在罗马传说中 ，有一位叫雅努斯（Janus）的守护神，他是罗马人的门神，生有两张脸，一张向前，回首过往，一张向后，眺望未来。雅努斯也是掌管开始和终结的神，罗马人往往会在结婚、出生等场合祭祀这位神祗。雅努斯是天宫的守门人，每天把天空的大门打开，让阳光普照大地；黄昏时就把大门关上，黑夜也随之降临。罗马人把一月称为Januarius(mensis)，蕴含“Janus之月”之意。</p>
-<h3 id="February"><a href="#February" class="headerlink" title="February"></a>February</h3><p>每年的2月初，罗马人都要杀牲饮酒，欢庆菲勃卢姆节。这一天，人们要忏悔自己过去一年的罪过，洗刷自己的灵魂，以祈求神明的饶恕，使自己成为一个贞洁的人。英语2月February，便是由拉丁文 Februar-ius（即菲勃卢姆节）演变而来。</p>
-<h3 id="March"><a href="#March" class="headerlink" title="March"></a>March</h3><p>3月，原是罗马旧历法的1月，新年的开始。凯撒大帝改革历法后，原来的1月变成3月，但罗马人仍然把3月看做是一年的开始。另外，按照传统习惯，3月是每年出征远战的季节。为了纪念战神玛尔斯(宙斯和赫拉的儿子阿瑞斯)，人们便把这位战神的拉丁Mars名字作为3月的月名。</p>
-<h3 id="April"><a href="#April" class="headerlink" title="April"></a>April</h3><p>罗马的4月，正是鲜花初绽，大地回春的美好季节，也是罗马人纪念维纳斯的月份。英文4月April便由拉丁文Aprilis（即开花的日子）演变而来。而拉丁文之所以写成Aprilis，正是来源于希腊爱与美之女神的名字——阿芙罗狄忒Aphrodite（其罗马名维纳斯），她是爱情和女性美的象征，传说正是因为她，世上才有了玫瑰花</p>
-<h3 id="May"><a href="#May" class="headerlink" title="May"></a>May</h3><p>罗马神话中的女神玛雅Maia，专门司管春天和生命。为了纪念这位女神 ，罗马人便用她的名字——拉丁文 Maius命名5月，英文5月May便由这位女神的名字演变而来。</p>
-<h3 id="June"><a href="#June" class="headerlink" title="June"></a>June</h3><p>罗马神话中的朱诺，就是希腊神话中的天后赫拉，她是宙斯的妻子，也是司管婚姻和生育的女神。古罗马人对她十分崇敬，便把6月以她的名字——拉丁文Junius来命名。因为6月是赫拉守护的月份，据说这个月结婚的人都能得到幸福，就有了六月新娘（June Bride）的说法。</p>
-<h3 id="July"><a href="#July" class="headerlink" title="July"></a>July</h3><p>罗马统治者朱里斯·凯撒（Julius Caesar）被刺身亡后，著名的罗马将军安东尼建议将凯撒大帝诞生的7月，用凯撒的名字——拉丁文Julius命名之。这一建议得到了元老院的通过。英语7月July 由此演变而来。</p>
-<h3 id="August"><a href="#August" class="headerlink" title="August"></a>August</h3><p>朱里斯·凯撒（Julius Caesar）死后，由他的甥孙屋大维续任罗马皇帝。为了和凯撒齐名，他也想用自己的名字来命名一个月份。他的生日在9月，但他选定8月。因为他登基后，罗马元老院在8月授予他Augustus（奥古斯都）的尊号。于是，他决定用这个尊号来命名8月。原来8月比7月少一天，为了和凯撒平起平坐，他又决定从2月中抽出一天加在8月上。从此，2月便少了一天。英语8月August便由这位皇帝的拉丁语尊号演变而来。</p>
-<h3 id="September"><a href="#September" class="headerlink" title="September"></a>September</h3><p>旧历的7月，正是凯撒大帝改革历法后的9月，拉丁文 Septem是“7”的意思。虽然历法改革了，但人们仍袭用旧名称来称呼9月。英语9月September，便由此演变而来。</p>
-<h3 id="October"><a href="#October" class="headerlink" title="October"></a>October</h3><p>英语中的十月，来自拉丁文Octo，即“八”的意思，也是根据旧历法来的。</p>
-<h3 id="November"><a href="#November" class="headerlink" title="November"></a>November</h3><p>罗马皇帝奥古斯都和凯撒都有了自己名字命名的月份，罗马市民和元老院要求当时的罗马皇帝梯比里乌斯用其名命名11月。但梯比里乌斯没有同意，他明智地对大家说，如果罗马每个皇帝都用自己的名字来命名月份，那么出现了第13个皇帝怎么办？于是，11月仍然保留着旧称 Novem，即拉丁文“9”的意思。英语11月November便由此演变而来。</p>
-<h3 id="December"><a href="#December" class="headerlink" title="December"></a>December</h3><p>罗马皇帝琉西乌斯要把一年中最后一个月用他情妇的Amagonius的名字来命名，但遭但元老院的反对。于是，12月仍然沿用旧名Decem，即拉丁文“10”的意思。英语12月December，便由此演变而来.</p>
-<h1 id="星期"><a href="#星期" class="headerlink" title="星期"></a>星期</h1><h3 id="Sunday-Sun"><a href="#Sunday-Sun" class="headerlink" title="Sunday(Sun.)"></a>Sunday(Sun.)</h3><p>Day of the Sun(太阳日，星期日)。是耶酥复活日，因此西方把这一天看作最神圣的日子，称之为“安息日”或“主日”。公元4世纪，在指定罗马历法时，罗马皇帝君士坦丁大帝把这一天定为合法假日，后被世界各国广泛采用。 Sunday 星期日：Sunday在古英文中的意思是sun’s day(属于太阳的日子)。 对基督徒而言, 星期日是「安息日」, 因为耶稣复活的日子是在星期日。约从公元4世纪起，罗马天主教会就将Sunday定为假日，在这一天禁止任何人工作，教徒都得停止一切娱乐活动，上教堂去做礼拜。直到今日, 世界上大多数的国家都以Sunday为星期例假日。</p>
-<h3 id="Monday-Mon"><a href="#Monday-Mon" class="headerlink" title="Monday(Mon.)"></a>Monday(Mon.)</h3><p>Day of the Moon(月亮日)。在古英语中写作Monandoeg, 即 day of the moon，拉丁语为Lunaedies。 在古罗马神话中，月亮神为太阳神之妻，因此一周中，也应有她一天。 Monday 星期一 ：在古罗马神话中， Monday的意思是moon day(属于月亮的日子), 因为西方人把这一天献给月之女神。古时候西方人相信, 月的盈亏会影响农作物的生长, 也会影响医疗。此外, 尚有所谓的Blue Monday。 Blue是“忧郁”的意思。星期一是一周工作的开始, 没得玩了, 所以心情不好,。不少国家将星期一当作 family washday(家庭洗濯日), 那是由来已久的习俗。</p>
-<h3 id="Tuesday-Tues"><a href="#Tuesday-Tues" class="headerlink" title="Tuesday(Tues.)"></a>Tuesday(Tues.)</h3><p>Day of the Mars(火星日)。这一天是为了纪念战神Tyr而由他的名字命名的。古英语中Tyr的名字写作Tiw。Tiwesdoeg的意思是Tiw’s day(战神日)，它是由拉丁语dies Martis(即 day of Mars)翻译而成的。Tyr原是北欧神话里的战神，也是盎格鲁—撒克逊人的神。他用自己的手作诱饵，捉住了狼精，他的手却被狼精咬掉了。为了纪念他这种勇敢的精神，使用他的名字来命名Tuesday这一天。 值得一提的是，星期二Mars在法语中作Mardi。Mardi Gras表示四旬斋前的狂欢节(星期二)，是天主教徒在复活节之前必须的斋戒仪式。斋戒之前当然要大吃大喝一番了，因此这一天又叫Fat Tuesday。Mardi Gras Day是美国最大的嘉年华会，这一持续两周的盛会每年都会在新奥尔良举行，有数百万人参加。</p>
-<h3 id="Wednesday-Wed"><a href="#Wednesday-Wed" class="headerlink" title="Wednesday(Wed.)"></a>Wednesday(Wed.)</h3><p>Wednesday在古英文中的意思是Woden’s day。Woden是北欧诸神之父。为制服狼精而牺牲自己一只手的Tyr, 就是他的儿子。Woden领导神族跟巨人族作战, 他曾牺牲自己锐利的右眼, 跟巨人族换取「智能」的甘泉。他也曾深入地层, 从巨人族那里偷取「诗」的美酒。西方人为了追念这位主神, 就根据他的名字创造了Wednesday这个字。Wednesday(Wed.)—Day of the Mercury(水星日)。这一天是以北欧神话中掌管文化、艺术、战争、死亡的神Woden的名字命名的。Woden是战神Thor的父亲;他勇敢地将在宇宙间制造混乱的“混沌”(Chaos)杀死，并将阵亡将士的英灵请到天界，使他们享受天伦之乐。为怀念他，人们用他的名字命名了Wednesday这一天。 Mercury不但是各路神灵的使者，还是商业、旅行及盗窃的守护神。后来，日尔曼民族用他们自己的神Woden(挪威神话里的Odin)取代了墨丘里神，这就是Wednesday的起源。</p>
-<h3 id="Thursday"><a href="#Thursday" class="headerlink" title="Thursday"></a>Thursday</h3><p>Day of Jupiter(木星日)。这一天是用北欧神话中Thor的名字来命名的。Thor是掌管雷电之神(God of Thunder and Lightning)。他常驾驭着由山羊拉的战车奔驰在天际间，风儿飕飕成了闪电，车轮滚滚成了雷鸣。Thursday在古英文中意思是Thor’s day。Thor是北欧神话中的雷神, 经常带着一把大铁锤。相传有一次, 他的大铁锤被一位叫Thrym的巨人偷走了。Thrym 扬言, 除非神族答应把美丽的爱神Freya嫁给他做为交换。然而Freya抵死不从, 于是神族想了一个办法, 由Thor男扮女装穿Freya的衣服, 假装嫁给他, Thrym不疑有诈, 把铁锤交给新娘。于是Thor抢回了自己的武器, 也立即把Thrym 给杀了。</p>
-<h3 id="Friday-Fri"><a href="#Friday-Fri" class="headerlink" title="Friday(Fri.)"></a>Friday(Fri.)</h3><p>Day of Venus(金星日)。Friday在古英语中写作Frigedoeg。后来挪威人用他们自己的爱神Frigg(Odin的妻子)取代了维纳斯的地位，所以今天的星期五就是Friday了。 Frigga是掌管婚姻的女神。她是Woden之妻，Thor之母。因为以Woden之名命名了Wednesday,以Thor之名命名了Thursday，为了抚慰她本人，便以她的名Frigga命名了Friday。 Friday 星期五：Friday在古英文中意思是Frigg’s day。Frigg是北欧神话中主司婚姻和生育的女神, 也是Woden的妻子。相传她平日身披闪耀白长袍, 住在水晶宫中, 和侍女们一起编织五颜六色的彩云。 对于北欧人而言, 星期五是幸运的日子。然而对基督徒来说却是相反的, 因为耶稣受难日正好是星期五。</p>
-<h3 id="Saturday-Sat"><a href="#Saturday-Sat" class="headerlink" title="Saturday(Sat.)"></a>Saturday(Sat.)</h3><p>Day of Saturn(土星日)。这是一星期中最后一天，它是由掌管农业之神，罗马主神朱庇特的父亲(the god of Agriculture, father of Jupiter)Saturn的名字命名的，也是英语直接用罗马神话中神名来命名星期名称的唯一的一天，其余几天则是以北欧神话中的神名来命名的。</p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://zhuanlan.zhihu.com/p/36421098" target="_blank" rel="noopener">12月份的英文</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/36421098" target="_blank" rel="noopener">12月份的英文来历</a></p>
-<p><a href="https://www.douban.com/group/topic/28393940/" target="_blank" rel="noopener">英文星期的来历</a></p>
-]]></content>
-      <categories>
-        <category>分类</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>基于java实现简单的邮件发送和读取</title>
     <url>/2020/07/10/%E5%9F%BA%E4%BA%8Ejava%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81%E5%92%8C%E8%AF%BB%E5%8F%96/</url>
     <content><![CDATA[<h1 id="基于java实现简单的邮件发送和读取"><a href="#基于java实现简单的邮件发送和读取" class="headerlink" title="基于java实现简单的邮件发送和读取"></a>基于java实现简单的邮件发送和读取</h1><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这是计算机网络课程的实验课设，使用java socket发送邮件并且不适用java的mail，基于swing图形实现了一些功能，特地以此作为笔记以备日后查阅。</p>
@@ -150,6 +83,73 @@
       </categories>
       <tags>
         <tag>计网实验课设</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/07/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>月份与星期的来历</title>
+    <url>/2020/07/10/%E6%9C%88%E4%BB%BD%E4%B8%8E%E6%98%9F%E6%9C%9F%E7%9A%84%E6%9D%A5%E5%8E%86/</url>
+    <content><![CDATA[<h1 id="月份"><a href="#月份" class="headerlink" title="月份"></a>月份</h1><p>公历一年有12个月，公历起源于古罗马历法。罗马的英语原本只有10个月，古罗马皇帝决定增加两个月至末尾，后来的凯撒大帝<code>Gaius Julius Caesar</code>将此2月 移至年初，即1、2月，原本的1、2月顺延为3、4月。</p>
+<h3 id="January"><a href="#January" class="headerlink" title="January"></a>January</h3><p>在罗马传说中 ，有一位叫雅努斯（Janus）的守护神，他是罗马人的门神，生有两张脸，一张向前，回首过往，一张向后，眺望未来。雅努斯也是掌管开始和终结的神，罗马人往往会在结婚、出生等场合祭祀这位神祗。雅努斯是天宫的守门人，每天把天空的大门打开，让阳光普照大地；黄昏时就把大门关上，黑夜也随之降临。罗马人把一月称为Januarius(mensis)，蕴含“Janus之月”之意。</p>
+<h3 id="February"><a href="#February" class="headerlink" title="February"></a>February</h3><p>每年的2月初，罗马人都要杀牲饮酒，欢庆菲勃卢姆节。这一天，人们要忏悔自己过去一年的罪过，洗刷自己的灵魂，以祈求神明的饶恕，使自己成为一个贞洁的人。英语2月February，便是由拉丁文 Februar-ius（即菲勃卢姆节）演变而来。</p>
+<h3 id="March"><a href="#March" class="headerlink" title="March"></a>March</h3><p>3月，原是罗马旧历法的1月，新年的开始。凯撒大帝改革历法后，原来的1月变成3月，但罗马人仍然把3月看做是一年的开始。另外，按照传统习惯，3月是每年出征远战的季节。为了纪念战神玛尔斯(宙斯和赫拉的儿子阿瑞斯)，人们便把这位战神的拉丁Mars名字作为3月的月名。</p>
+<h3 id="April"><a href="#April" class="headerlink" title="April"></a>April</h3><p>罗马的4月，正是鲜花初绽，大地回春的美好季节，也是罗马人纪念维纳斯的月份。英文4月April便由拉丁文Aprilis（即开花的日子）演变而来。而拉丁文之所以写成Aprilis，正是来源于希腊爱与美之女神的名字——阿芙罗狄忒Aphrodite（其罗马名维纳斯），她是爱情和女性美的象征，传说正是因为她，世上才有了玫瑰花</p>
+<h3 id="May"><a href="#May" class="headerlink" title="May"></a>May</h3><p>罗马神话中的女神玛雅Maia，专门司管春天和生命。为了纪念这位女神 ，罗马人便用她的名字——拉丁文 Maius命名5月，英文5月May便由这位女神的名字演变而来。</p>
+<h3 id="June"><a href="#June" class="headerlink" title="June"></a>June</h3><p>罗马神话中的朱诺，就是希腊神话中的天后赫拉，她是宙斯的妻子，也是司管婚姻和生育的女神。古罗马人对她十分崇敬，便把6月以她的名字——拉丁文Junius来命名。因为6月是赫拉守护的月份，据说这个月结婚的人都能得到幸福，就有了六月新娘（June Bride）的说法。</p>
+<h3 id="July"><a href="#July" class="headerlink" title="July"></a>July</h3><p>罗马统治者朱里斯·凯撒（Julius Caesar）被刺身亡后，著名的罗马将军安东尼建议将凯撒大帝诞生的7月，用凯撒的名字——拉丁文Julius命名之。这一建议得到了元老院的通过。英语7月July 由此演变而来。</p>
+<h3 id="August"><a href="#August" class="headerlink" title="August"></a>August</h3><p>朱里斯·凯撒（Julius Caesar）死后，由他的甥孙屋大维续任罗马皇帝。为了和凯撒齐名，他也想用自己的名字来命名一个月份。他的生日在9月，但他选定8月。因为他登基后，罗马元老院在8月授予他Augustus（奥古斯都）的尊号。于是，他决定用这个尊号来命名8月。原来8月比7月少一天，为了和凯撒平起平坐，他又决定从2月中抽出一天加在8月上。从此，2月便少了一天。英语8月August便由这位皇帝的拉丁语尊号演变而来。</p>
+<h3 id="September"><a href="#September" class="headerlink" title="September"></a>September</h3><p>旧历的7月，正是凯撒大帝改革历法后的9月，拉丁文 Septem是“7”的意思。虽然历法改革了，但人们仍袭用旧名称来称呼9月。英语9月September，便由此演变而来。</p>
+<h3 id="October"><a href="#October" class="headerlink" title="October"></a>October</h3><p>英语中的十月，来自拉丁文Octo，即“八”的意思，也是根据旧历法来的。</p>
+<h3 id="November"><a href="#November" class="headerlink" title="November"></a>November</h3><p>罗马皇帝奥古斯都和凯撒都有了自己名字命名的月份，罗马市民和元老院要求当时的罗马皇帝梯比里乌斯用其名命名11月。但梯比里乌斯没有同意，他明智地对大家说，如果罗马每个皇帝都用自己的名字来命名月份，那么出现了第13个皇帝怎么办？于是，11月仍然保留着旧称 Novem，即拉丁文“9”的意思。英语11月November便由此演变而来。</p>
+<h3 id="December"><a href="#December" class="headerlink" title="December"></a>December</h3><p>罗马皇帝琉西乌斯要把一年中最后一个月用他情妇的Amagonius的名字来命名，但遭但元老院的反对。于是，12月仍然沿用旧名Decem，即拉丁文“10”的意思。英语12月December，便由此演变而来.</p>
+<h1 id="星期"><a href="#星期" class="headerlink" title="星期"></a>星期</h1><h3 id="Sunday-Sun"><a href="#Sunday-Sun" class="headerlink" title="Sunday(Sun.)"></a>Sunday(Sun.)</h3><p>Day of the Sun(太阳日，星期日)。是耶酥复活日，因此西方把这一天看作最神圣的日子，称之为“安息日”或“主日”。公元4世纪，在指定罗马历法时，罗马皇帝君士坦丁大帝把这一天定为合法假日，后被世界各国广泛采用。 Sunday 星期日：Sunday在古英文中的意思是sun’s day(属于太阳的日子)。 对基督徒而言, 星期日是「安息日」, 因为耶稣复活的日子是在星期日。约从公元4世纪起，罗马天主教会就将Sunday定为假日，在这一天禁止任何人工作，教徒都得停止一切娱乐活动，上教堂去做礼拜。直到今日, 世界上大多数的国家都以Sunday为星期例假日。</p>
+<h3 id="Monday-Mon"><a href="#Monday-Mon" class="headerlink" title="Monday(Mon.)"></a>Monday(Mon.)</h3><p>Day of the Moon(月亮日)。在古英语中写作Monandoeg, 即 day of the moon，拉丁语为Lunaedies。 在古罗马神话中，月亮神为太阳神之妻，因此一周中，也应有她一天。 Monday 星期一 ：在古罗马神话中， Monday的意思是moon day(属于月亮的日子), 因为西方人把这一天献给月之女神。古时候西方人相信, 月的盈亏会影响农作物的生长, 也会影响医疗。此外, 尚有所谓的Blue Monday。 Blue是“忧郁”的意思。星期一是一周工作的开始, 没得玩了, 所以心情不好,。不少国家将星期一当作 family washday(家庭洗濯日), 那是由来已久的习俗。</p>
+<h3 id="Tuesday-Tues"><a href="#Tuesday-Tues" class="headerlink" title="Tuesday(Tues.)"></a>Tuesday(Tues.)</h3><p>Day of the Mars(火星日)。这一天是为了纪念战神Tyr而由他的名字命名的。古英语中Tyr的名字写作Tiw。Tiwesdoeg的意思是Tiw’s day(战神日)，它是由拉丁语dies Martis(即 day of Mars)翻译而成的。Tyr原是北欧神话里的战神，也是盎格鲁—撒克逊人的神。他用自己的手作诱饵，捉住了狼精，他的手却被狼精咬掉了。为了纪念他这种勇敢的精神，使用他的名字来命名Tuesday这一天。 值得一提的是，星期二Mars在法语中作Mardi。Mardi Gras表示四旬斋前的狂欢节(星期二)，是天主教徒在复活节之前必须的斋戒仪式。斋戒之前当然要大吃大喝一番了，因此这一天又叫Fat Tuesday。Mardi Gras Day是美国最大的嘉年华会，这一持续两周的盛会每年都会在新奥尔良举行，有数百万人参加。</p>
+<h3 id="Wednesday-Wed"><a href="#Wednesday-Wed" class="headerlink" title="Wednesday(Wed.)"></a>Wednesday(Wed.)</h3><p>Wednesday在古英文中的意思是Woden’s day。Woden是北欧诸神之父。为制服狼精而牺牲自己一只手的Tyr, 就是他的儿子。Woden领导神族跟巨人族作战, 他曾牺牲自己锐利的右眼, 跟巨人族换取「智能」的甘泉。他也曾深入地层, 从巨人族那里偷取「诗」的美酒。西方人为了追念这位主神, 就根据他的名字创造了Wednesday这个字。Wednesday(Wed.)—Day of the Mercury(水星日)。这一天是以北欧神话中掌管文化、艺术、战争、死亡的神Woden的名字命名的。Woden是战神Thor的父亲;他勇敢地将在宇宙间制造混乱的“混沌”(Chaos)杀死，并将阵亡将士的英灵请到天界，使他们享受天伦之乐。为怀念他，人们用他的名字命名了Wednesday这一天。 Mercury不但是各路神灵的使者，还是商业、旅行及盗窃的守护神。后来，日尔曼民族用他们自己的神Woden(挪威神话里的Odin)取代了墨丘里神，这就是Wednesday的起源。</p>
+<h3 id="Thursday"><a href="#Thursday" class="headerlink" title="Thursday"></a>Thursday</h3><p>Day of Jupiter(木星日)。这一天是用北欧神话中Thor的名字来命名的。Thor是掌管雷电之神(God of Thunder and Lightning)。他常驾驭着由山羊拉的战车奔驰在天际间，风儿飕飕成了闪电，车轮滚滚成了雷鸣。Thursday在古英文中意思是Thor’s day。Thor是北欧神话中的雷神, 经常带着一把大铁锤。相传有一次, 他的大铁锤被一位叫Thrym的巨人偷走了。Thrym 扬言, 除非神族答应把美丽的爱神Freya嫁给他做为交换。然而Freya抵死不从, 于是神族想了一个办法, 由Thor男扮女装穿Freya的衣服, 假装嫁给他, Thrym不疑有诈, 把铁锤交给新娘。于是Thor抢回了自己的武器, 也立即把Thrym 给杀了。</p>
+<h3 id="Friday-Fri"><a href="#Friday-Fri" class="headerlink" title="Friday(Fri.)"></a>Friday(Fri.)</h3><p>Day of Venus(金星日)。Friday在古英语中写作Frigedoeg。后来挪威人用他们自己的爱神Frigg(Odin的妻子)取代了维纳斯的地位，所以今天的星期五就是Friday了。 Frigga是掌管婚姻的女神。她是Woden之妻，Thor之母。因为以Woden之名命名了Wednesday,以Thor之名命名了Thursday，为了抚慰她本人，便以她的名Frigga命名了Friday。 Friday 星期五：Friday在古英文中意思是Frigg’s day。Frigg是北欧神话中主司婚姻和生育的女神, 也是Woden的妻子。相传她平日身披闪耀白长袍, 住在水晶宫中, 和侍女们一起编织五颜六色的彩云。 对于北欧人而言, 星期五是幸运的日子。然而对基督徒来说却是相反的, 因为耶稣受难日正好是星期五。</p>
+<h3 id="Saturday-Sat"><a href="#Saturday-Sat" class="headerlink" title="Saturday(Sat.)"></a>Saturday(Sat.)</h3><p>Day of Saturn(土星日)。这是一星期中最后一天，它是由掌管农业之神，罗马主神朱庇特的父亲(the god of Agriculture, father of Jupiter)Saturn的名字命名的，也是英语直接用罗马神话中神名来命名星期名称的唯一的一天，其余几天则是以北欧神话中的神名来命名的。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://zhuanlan.zhihu.com/p/36421098" target="_blank" rel="noopener">12月份的英文</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/36421098" target="_blank" rel="noopener">12月份的英文来历</a></p>
+<p><a href="https://www.douban.com/group/topic/28393940/" target="_blank" rel="noopener">英文星期的来历</a></p>
+]]></content>
+      <categories>
+        <category>分类</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>testing</title>
+    <url>/2020/07/09/testing/</url>
+    <content><![CDATA[<p>分组转发是网络核心部分的重要功能</p>
+<p>路由器是 实现分组交换关键构建，存储和转发</p>
+<h6 id="核心部分最核心功能：交换"><a href="#核心部分最核心功能：交换" class="headerlink" title="核心部分最核心功能：交换"></a>核心部分最核心功能：交换</h6><p>电话数量增多，使用交换机完成简</p>
+<p>分组交换网以 分组 作为数据传输单元 依次发送到服务端</p>
+<p>分组首部含有地址（目的地址和原源地址）   </p>
+<p>分组 独立地选择传输路径</p>
+<p>路由器处理分组过程：把收到的分组暂存； 查找转发表；转发</p>
+]]></content>
+      <categories>
+        <category>分类测试</category>
+      </categories>
+      <tags>
+        <tag>testing1</tag>
+        <tag>tesing2</tag>
       </tags>
   </entry>
 </search>
