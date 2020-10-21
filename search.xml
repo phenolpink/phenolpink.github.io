@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>testing</title>
+    <url>/2020/07/09/testing/</url>
+    <content><![CDATA[<p>分组转发是网络核心部分的重要功能</p>
+<p>路由器是 实现分组交换关键构建，存储和转发</p>
+<h6 id="核心部分最核心功能：交换"><a href="#核心部分最核心功能：交换" class="headerlink" title="核心部分最核心功能：交换"></a>核心部分最核心功能：交换</h6><p>电话数量增多，使用交换机完成简</p>
+<p>分组交换网以 分组 作为数据传输单元 依次发送到服务端</p>
+<p>分组首部含有地址（目的地址和原源地址）   </p>
+<p>分组 独立地选择传输路径</p>
+<p>路由器处理分组过程：把收到的分组暂存； 查找转发表；转发</p>
+]]></content>
+      <categories>
+        <category>分类测试</category>
+      </categories>
+      <tags>
+        <tag>testing1</tag>
+        <tag>tesing2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/07/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>基于java实现简单的邮件发送和读取</title>
     <url>/2020/07/10/%E5%9F%BA%E4%BA%8Ejava%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81%E5%92%8C%E8%AF%BB%E5%8F%96/</url>
     <content><![CDATA[<h1 id="基于java实现简单的邮件发送和读取"><a href="#基于java实现简单的邮件发送和读取" class="headerlink" title="基于java实现简单的邮件发送和读取"></a>基于java实现简单的邮件发送和读取</h1><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这是计算机网络课程的实验课设，使用java socket发送邮件并且不适用java的mail，基于swing图形实现了一些功能，特地以此作为笔记以备日后查阅。</p>
@@ -86,20 +119,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/07/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>月份与星期的来历</title>
     <url>/2020/07/10/%E6%9C%88%E4%BB%BD%E4%B8%8E%E6%98%9F%E6%9C%9F%E7%9A%84%E6%9D%A5%E5%8E%86/</url>
     <content><![CDATA[<h1 id="月份"><a href="#月份" class="headerlink" title="月份"></a>月份</h1><p>公历一年有12个月，公历起源于古罗马历法。罗马的英语原本只有10个月，古罗马皇帝决定增加两个月至末尾，后来的凯撒大帝<code>Gaius Julius Caesar</code>将此2月 移至年初，即1、2月，原本的1、2月顺延为3、4月。</p>
@@ -131,25 +150,6 @@
       </categories>
       <tags>
         <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>testing</title>
-    <url>/2020/07/09/testing/</url>
-    <content><![CDATA[<p>分组转发是网络核心部分的重要功能</p>
-<p>路由器是 实现分组交换关键构建，存储和转发</p>
-<h6 id="核心部分最核心功能：交换"><a href="#核心部分最核心功能：交换" class="headerlink" title="核心部分最核心功能：交换"></a>核心部分最核心功能：交换</h6><p>电话数量增多，使用交换机完成简</p>
-<p>分组交换网以 分组 作为数据传输单元 依次发送到服务端</p>
-<p>分组首部含有地址（目的地址和原源地址）   </p>
-<p>分组 独立地选择传输路径</p>
-<p>路由器处理分组过程：把收到的分组暂存； 查找转发表；转发</p>
-]]></content>
-      <categories>
-        <category>分类测试</category>
-      </categories>
-      <tags>
-        <tag>testing1</tag>
-        <tag>tesing2</tag>
       </tags>
   </entry>
 </search>
